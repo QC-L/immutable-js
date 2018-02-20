@@ -1,13 +1,9 @@
-Immutable collections for JavaScript
+JavaScript Immutable 集合类型
 ====================================
 
 [![Build Status](https://travis-ci.org/facebook/immutable-js.svg?branch=master)](https://travis-ci.org/facebook/immutable-js)
 
-[Immutable][] data cannot be changed once created, leading to much simpler
-application development, no defensive copying, and enabling advanced memoization
-and change detection techniques with simple logic. [Persistent][] data presents
-a mutative API which does not update the data in-place, but instead always
-yields new updated data.
+[Immutable][] (不可变)数据一旦创建就无法更改，从而简化应用程序开发，不需要防御拷贝，通过简单的逻辑实现高级缓存技术和变化检测技术。 [Persistent][] (持久化)数据提供了一种不会修改源数据 (data in-place) 的可变 API，但总是重新更新数据。
 
 Immutable.js provides many Persistent Immutable data structures including:
 `List`, `Stack`, `Map`, `OrderedMap`, `Set`, `OrderedSet` and `Record`.
